@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  width: 100%;
+  height: 720px;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor-formulario {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: start;
+}
+
+.formulario-login {
+  width: 100%;
+  height: 720px;
+  text-align: center;
+}
+
+.estilo-formulario {
+  width: 50%;
+  margin: 110px auto;
+  padding: 60px;
+  background:  rgba(118, 129, 130, 0.5);
+}
+
+h1 {
+  color: #57f8f3;
+  font-size: 50px;
+  margin-bottom: 60px;
+  font-family: 'Optima', 'Garamond';
+}
+
+p {
+  color: #57f8f3;
+  font-size: 25px;
+  font-family: 'Optima', 'Garamond';
+}
+
+.opcion-contenido {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.opcion-contenido input {
+  width: 50%;
+  height: 30px;
+  margin: 10px;
+  font-family: 'Optima', 'Garamond';
+}
+
+.btn-enviar {
+  width: 30%;
+  height: 30px;
+  background: #35a7a3;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Optima', 'Garamond';
+}
+
+.btn-enviar:hover {
+  height: 30px;
+  color: #309895;
+  background: #fff;
+}

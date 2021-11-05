@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+    background-image: url(../img/background-listado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h2 {
+      font-size: 50px;
+      color: #57f8f3;
+      text-shadow: 4px 4px rgb(29, 29, 29);
+      text-align: center;
+      margin: 30px;
+      font-family: 'Optima', 'Garamond';
+  }
+
+  .container-btn-new {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      margin: auto;
+  }
+
+  .btn-new {
+      text-decoration: none;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      font-size: 18px;
+      margin-top: 10px;
+      font-family: 'Optima', 'Garamond';
+      padding: 5px;
+  }
+
+  .btn-new:hover {
+      color: #35a7a3;
+      border: 2px solid #35a7a3;
+  }
+
+  .contenedor-tabla{
+      width: 100%;
+  }
+
+  .tabla-usuarios {
+      width: 92%;
+      margin: 30px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+  }
+
+  table {
+      width: 100%;
+  }
+
+ .list-opt {
+      width: 100%;
+      color: #000;
+      font-size: 15px;
+  }
+
+  th {
+      width: 20%;
+      text-align: center;
+      background: #35a7a3;
+      color: #fff;
+      font-family: 'Optima', 'Garamond';
+      font-size: 21px;
+      }
+
+  td {
+    width: 22%;
+    padding: 2px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.864);
+    color: rgba(0, 0, 0, 0.626);
+    font-family: 'Optima', 'Garamond';
+    font-size: 18px;
+}
+
+.accion {
+    text-decoration: none;
+    color: #e60012;
+    font-size: 14px;
+}
